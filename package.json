@@ -1,0 +1,22 @@
+{
+  "name": "aws-security-groups",
+  "version": "1.0.0",
+  "description": "A utility to notify you when AWS security groups are wide open.",
+  "main": "aws-security-groups.js",
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "aws-sdk": "^2.188.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "webtask-tools": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Duffy",
+  "license": "MIT"
+}
